@@ -16,6 +16,9 @@ export const ShoppiCartProvider = ({children}) => {
     //product detail - show product
     const [productToShow, setProductToShow] = useState({})
 
+    // Shopping Cart · Add products to cart
+    const [cartProducts, setCartProducts] = useState([])
+
     return (
         //proveedor
         <ShoppiCartContext.Provider value={{
@@ -25,7 +28,9 @@ export const ShoppiCartProvider = ({children}) => {
             closeProductDetail, 
             isProductDetailOpen, 
             productToShow,
-            setProductToShow
+            setProductToShow,
+            cartProducts,
+            setCartProducts
         }}>
             {children}
         </ShoppiCartContext.Provider>
