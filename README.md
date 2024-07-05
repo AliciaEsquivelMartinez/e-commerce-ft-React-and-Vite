@@ -1,7 +1,7 @@
 # React + Vite
 
 In the following link you can see in operation the application made with vite and react, about an online store. 
-https://aliciaesquivelmartinez.github.io/
+https://aliciaesquivelmartinez.github.io/e-commerce-ft-React-and-Vite/
 
 Currently, two official plugins are available:
 
